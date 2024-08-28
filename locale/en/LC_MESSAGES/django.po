@@ -1318,9 +1318,8 @@ msgstr "Countries and cities sent by our travel agency Our company provides the 
 
 #: .\templates\base.html:69
 msgid ""
-"JOYER\n"
-" Toshkent sh., Shayx Shivli MFP, Bodomzor ko‘chasi, 2-bino, 1-xonadon"
-msgstr "JOYER Tashkent city, Sheikh Shivli MFP, Bodomzor street, building 2, apartment 1"
+"100096, Toshkent sh., Qatartol ko‘chasi, 25-uy"
+msgstr "Katartal Street 25, 100096, Tashkent"
 
 #: .\templates\base.html:71
 msgid ""

@@ -1321,9 +1321,8 @@ msgstr "Страны и города, отправленные нашим тур
 
 #: .\templates\base.html:69
 msgid ""
-"JOYER\n"
-" Toshkent sh., Shayx Shivli MFP, Bodomzor ko‘chasi, 2-bino, 1-xonadon"
-msgstr "JOYER г. Ташкент, МФЦ Шейх Шивли, улица Бодомзора, дом 2, квартира 1"
+"100096, Toshkent sh., Qatartol ko‘chasi, 25-uy"
+msgstr "ул. Катартал, 25, 100096, г. Ташкент"
 
 #: .\templates\base.html:71
 msgid ""
