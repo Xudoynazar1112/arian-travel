@@ -164,6 +164,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    justify-items: center;
 }
 
 .card {
@@ -310,11 +311,35 @@ footer {
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-right: 20px;
     width: 100%;
     padding: 50px 15rem;
 }
-
+footer .foot {
+    padding: 0 30px;
+}
 footer .foot h3 {
     margin-bottom: 25px;
+}
+@media only screen and (max-width: 992px) {
+    footer .foot p {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .info, .navbar {
+        padding: 10px 50px;
+    }
+    .tours {
+        margin: 10px 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer {
+        padding: 50px 50px;
+    }
+    footer .foot h3 {
+        font-size: 0.9rem;
+    }
+    footer .foot p, footer .foot span {
+        font-size: 8px;
+    }
 }
