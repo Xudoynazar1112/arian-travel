@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-28 09:34+0500\n"
+"POT-Creation-Date: 2024-09-04 22:08+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\config\settings.py:113
+#: .\config\settings.py:117
 msgid "English"
 msgstr ""
 
-#: .\config\settings.py:114
+#: .\config\settings.py:118
 msgid "Russian"
 msgstr ""
 
-#: .\config\settings.py:115
+#: .\config\settings.py:119
 msgid "Uzbek"
 msgstr ""
 
@@ -1258,9 +1258,9 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: .\templates\about.html:6 .\templates\base.html:68 .\templates\contact.html:5
-msgid "Biz bilan aloqa"
-msgstr "Contact us"
+#: .\templates\about.html:6 .\templates\base.html:40
+msgid "Biz haqida"
+msgstr "About us"
 
 #: .\templates\about.html:7
 msgid ""
@@ -1283,73 +1283,95 @@ msgid ""
 "            muvaffaqiyatli\n"
 "            tashkil etilishiga ishonch, balki yoqimli va maroqli dam "
 "olishdir. Bizga to’liq ishonishingiz\n"
-"            mumkin!"
-msgstr "In recent years, recreation in Uzbekistan has been properly organized"
-         "demand has increased significantly. In this regard, the number of different tourist offers has increased. In order not to get lost in such different private trips, it is necessary to have up-to-date information about the peculiarities of organizing rest in private countries. Our travel agency attracts experienced specialists in organizing trips of any level of complexity for individual and group vacations. We offer a full range of quality travel services at affordable prices. My gift to you is not only confidence that your trip will be organized successfully, but also a pleasant and enjoyable vacation. You can completely trust us!"
+"            mumkin! <br>Direktor: Jumadullaev Dilmurod Abdusoli o'g'li. Ish "
+"vaqti Ish vaqti: dushanbadan shanbagacha 10:00 dan 19:00\n"
+"            gacha. Yakshanba dam olish kuni"
+msgstr ""
+"In recent years, the demand for the proper organization of recreation "
+"in Uzbekistan has increased significantly. In this regard, the number of different "
+"tourist offers has increased. In order not to get lost in such different "
+"private trips, it is necessary to have up-to-date information about the "
+"peculiarities of organizing rest in private countries. Our travel agency "
+"engages experienced specialists in organizing trips of any level of complexity "
+"for individual and group vacations. We offer a full range of quality travel "
+"services at affordable prices. My gift to you is not only confidence that "
+"your trip will be organized successfully, but also a pleasant and enjoyable "
+"vacation. You can completely trust us! Director: Jumadullaev Dilmurod Abdusoli "
+"son. Opening hours Opening hours: Monday to Saturday from 10:00 to 19:00. Sunday is a day off"
 
-#: .\templates\base.html:34
+#: .\templates\base.html:39
 msgid "Bosh sahifa"
 msgstr "Main page"
 
-#: .\templates\base.html:35
-msgid "Biz haqida"
-msgstr "About us"
-
-#: .\templates\base.html:36 .\templates\destinations.html:5
+#: .\templates\base.html:41 .\templates\destinations.html:5
 #: .\templates\index.html:22
 msgid "Turlar"
 msgstr "Tours"
 
-#: .\templates\base.html:37
+#: .\templates\base.html:42
 msgid "Aloqa"
 msgstr "Contact us"
 
-#: .\templates\base.html:62
+#: .\templates\base.html:67
 msgid "Biz haqimizda"
 msgstr "About us"
 
-#: .\templates\base.html:63
+#: .\templates\base.html:68
 msgid ""
 "Sayyohlik agentligimiz tomonidan yuborilgan mamlakatlar va shaharlar Bizning "
 "kompaniyamiz eng\n"
 "            yaxshi sifatni ta'minlaydi\n"
 "            sayohatingiz uchun xizmatlar."
-msgstr "Countries and cities sent by our travel agency Our company provides the best quality services for your trip."
+msgstr ""
+"Countries and cities sent by our travel agency Our company provides the best quality services for your trip"
 
-#: .\templates\base.html:69
-msgid ""
-"100096, Toshkent sh., Qatartol ko‘chasi, 25-uy"
-msgstr "Katartal Street 25, 100096, Tashkent"
+#: .\templates\base.html:73 .\templates\contact.html:5
+msgid "Biz bilan aloqa"
+msgstr "Contact us"
 
-#: .\templates\base.html:71
-msgid ""
-"BIZGA ELEKTRON POCHTA ORQALI\n"
-" ariantravelsuz@gmail.com"
-msgstr "E-mail:"
-
-#: .\templates\base.html:75
-msgid "Aloqa uchun telefon:"
-msgstr "Telephon number for contact:"
-
-#: .\templates\base.html:76
-msgid "Ofis:"
-msgstr "Office"
-
-#: .\templates\contact.html:8
-msgid "Manzil:"
-msgstr "Address:"
-
-#: .\templates\contact.html:9
+#: .\templates\base.html:74 .\templates\contact.html:9
 msgid "100096, Toshkent sh., Qatartol ko‘chasi, 25-uy"
 msgstr "100096, Tashkent city, Qatartol street, 25"
 
+#: .\templates\base.html:77
+msgid "Aloqa uchun telefon:"
+msgstr "Phone numbers for contact:"
+
+#: .\templates\base.html:78
+msgid "Ofis:"
+msgstr "Office:"
+
+#: .\templates\base.html:83
+msgid "Ish vaqti"
+msgstr "Working time"
+
+#: .\templates\base.html:84
+msgid "Ish vaqti: dushanbadan shanbagacha 10:00 dan 19:00 gacha"
+msgstr "Working time: Monday to Saturday from 10:00 to 19:00"
+
+#: .\templates\base.html:85
+msgid "Yakshanba dam olish kuni"
+msgstr "Sunday is a day off"
+
+#: .\templates\base.html:86
+msgid "Direktor"
+msgstr "Director"
+
+#: .\templates\base.html:87
+msgid "Jumadullaev Dilmurod Abdusoli o'g'li"
+msgstr "Jumadullaev Dilmurod Abdusoliyevich"
+
+#: .\templates\contact.html:8
+msgid "Manzil:"
+msgstr "Location:"
+
 #: .\templates\contact.html:10
 msgid "E-pochta orqali biz bilan bog'lanish: "
-msgstr "Our e-mail:"
+msgstr "Contact us by email: "
 
 #: .\templates\contact.html:12
 msgid "Qo'ng'iroq qiling:"
-msgstr "Call us:"
+msgstr "Call us"
 
 #: .\templates\destinations.html:14 .\templates\index.html:31
 msgid "Buyurta berish"
@@ -1357,7 +1379,7 @@ msgstr "Order"
 
 #: .\templates\detail.html:8
 msgid "Sayohat:"
-msgstr "Travel to "
+msgstr "Travel to"
 
 #: .\templates\detail.html:13
 msgid "Ismingiz:"
@@ -1365,11 +1387,11 @@ msgstr "Name:"
 
 #: .\templates\detail.html:15
 msgid "E-mailingiz:"
-msgstr "E-mail:"
+msgstr "Emil:"
 
 #: .\templates\detail.html:17
 msgid "Tur nomi:"
-msgstr "Name of tour:"
+msgstr "Tour:"
 
 #: .\templates\index.html:36
 msgid "Bizning joylashuvimiz"
